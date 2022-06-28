@@ -301,19 +301,6 @@ if ($ip_info && $ip_info->geoplugin_countryName != null) {
     $timezone = $ip_info->geoplugin_timezone;
     $currency_code = $ip_info->geoplugin_currencyCode;
 }
-else {
-    $region = "N/A";
-    $city = "N/A";
-    $country = "N/A";
-    $country_code = "N/A";
-    $latitude = "N/A";
-    $longitude = "N/A";
-    $radius = "N/A";
-    $continent_code = "N/A";
-    $continent_name = "N/A";
-    $timezone = "N/A";
-    $currency_code = "N/A";
-}
 /***END***/
 
 /***get links info***/
